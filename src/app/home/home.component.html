@@ -3,9 +3,10 @@
     {{title}}
   </h1>
 </article>
-<ul>
+<ul class="ul-container">
   <li class="li-container" *ngFor="let logro of logros">
-    {{logro.title}}
+    <h3>{{logro.title}}</h3>
+    <p>{{logro.description | truncate : 15}}</p>
   </li>
 </ul>
 
