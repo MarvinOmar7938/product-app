@@ -1,0 +1,21 @@
+:host{
+  height: 100px;
+  margin-top: 2px;
+}
+.body-container{
+  display: flex;
+  justify-content: space-between;
+
+  height: 100px;
+}
+.body-left{
+  width: 14%;
+  border: 1px solid #cccccc;
+}
+.body-rigth{
+  width: 84%;
+  padding: 10px;
+
+  border: 1px solid #cccccc;
+
+}

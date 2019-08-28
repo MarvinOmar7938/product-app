@@ -1,0 +1,17 @@
+.menu-item-container{
+  display: flex;
+  justify-content: center;
+
+  cursor: pointer;
+
+  padding: 20px;
+  margin: 2px;
+
+  border: 1px solid #ccc;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius: 10px;
+  &:focus{
+    outline: none;
+  }
+}
